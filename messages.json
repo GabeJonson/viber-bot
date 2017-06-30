@@ -1,0 +1,127 @@
+{
+  "messages": [
+    {
+      "type": "keyboard",
+      "text": "game|play|игра|играи",
+      "buttons": [
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "0",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "1",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "2",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "3",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "4",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "5",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "6",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "7",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        },
+        {
+          "Columns": 2,
+          "Rows": 1,
+          "ActionType": "reply",
+          "ActionBody": "8",
+          "BgColor": "#e0e0e0",
+          "Text": "-",
+          "TextHAlign": "center",
+          "TextVAlign": "middle"
+        }
+      ],
+      "response": "Lets play Tic Tac Toe"
+    },
+    {
+      "type": "url",
+      "text": "wiki",
+      "response": "https://en.wikipedia.org/wiki/Tic-tac-toe"
+    },
+    {
+      "type": "url",
+      "text": "сайт|site|robo|робо",
+      "response": "http://robo.bg"
+    },
+    {
+      "type": "location",
+      "text": "къде|where",
+      "response": "42.6989914,23.3081606"
+    },
+    {
+      "type": "text",
+      "text": "hi|hello",
+      "response": "Здравей, ${response.userProfile.name}"
+    },
+    {
+      "type": "url",
+      "text": "kvaba|кваба",
+      "response": "http://kvaba.com"
+    }
+  ]
+}
+

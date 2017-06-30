@@ -1,0 +1,30 @@
+{
+  "name": "bot-viber",
+  "version": "1.0.0",
+  "description": "vibre chat bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.1.0",
+    "npm": "5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://valiobar@bitbucket.org/kvabagames/bot-viber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kvabagames/bot-viber#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "firebase": "^4.1.2",
+    "firebase-admin": "5.0.0",
+    "request": "2.81.0",
+    "viber-bot": "1.0.10",
+    "winston": "2.3.1",
+    "winston-console-formatter": "0.3.1"
+  }
+}
